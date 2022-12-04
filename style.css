@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#head{
+    font-size: 100px;
+}
+.container {
+  height: 500px;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+span {
+  font-size: 100px;
+  padding: 10px;
+  color: rgb(11, 11, 11);
+}
+
+.btn {
+  background: none;
+  outline: none;
+  border: 2px solid rgb(9, 9, 10);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.btn:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
